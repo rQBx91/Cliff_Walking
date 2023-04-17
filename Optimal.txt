@@ -1,0 +1,24 @@
+SARSA Optimal Policy:
+ R  R  R  R  R  R  R  R  R  R  R  D 
+ R  U  U  R  R  R  R  R  R  R  R  D 
+ U  U  U  U  U  U  U  U  U  U  R  D 
+ U  L  L  L  L  L  L  L  L  L  L  L 
+
+Q-learning Optimal Policy:
+ D  R  R  R  R  D  R  R  D  R  D  D 
+ D  D  D  D  D  D  D  D  D  D  D  D 
+ R  R  R  R  R  R  R  R  R  R  R  D 
+ U  L  L  L  L  L  L  L  L  L  L  L 
+
+SARSA Optimal Path:
+ -  R  R  R  R  R  R  R  R  R  R  D 
+ R  U  -  -  -  -  -  -  -  -  -  D 
+ U  -  -  -  -  -  -  -  -  -  -  D 
+ S  -  -  -  -  -  -  -  -  -  -  G 
+
+Q-learning Optimal Path:
+ -  -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  -  - 
+ R  R  R  R  R  R  R  R  R  R  R  D 
+ S  -  -  -  -  -  -  -  -  -  -  G 
+
